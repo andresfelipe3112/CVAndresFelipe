@@ -1,0 +1,17 @@
+#logoHenry {
+  margin-right: 20px;
+}
+
+.Container {
+  margin-top: 20px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logoHenry {
+  width: 10vh;
+  height: 10vh;
+}

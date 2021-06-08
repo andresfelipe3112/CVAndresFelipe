@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto+Mono:wght@100&display=swap");
+
+.container {
+  font-family: "Raleway", sans-serif;
+
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: yellow;
+  background: linear-gradient(103deg, yellow 51%, rgba(255, 255, 255, 1) 100%);
+}
+
+.img1 {
+  border-radius: 13px;
+  width: 50px;
+  height: 60vh;
+}
+
+#h3Habilidades {
+  color: rgb(24, 1, 1);
+  border-radius: 6px;
+  font-size: 14px;
+
+  margin-top: 2vh;
+}
+
+.imgOFF {
+  display: flex;
+  width: 65px;
+  height: 80px;
+  margin: 50px;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+}
+
+.imgON {
+  display: flex;
+  width: 65px;
+  height: 80px;
+  margin: 6vh;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.animationON {
+  animation: fade-in-bottom 1s ease-in-out both;
+}
+
+.animationONCajanegra {
+  animation: Caja-Negra 1s ease-in-out both;
+}
+
+.animationSolocajaCertificadosoFF {
+  height: 10vh;
+  width: 30vh;
+  background-color: purple;
+  opacity: 0;
+}
+
+.animationSolocajaCertificados {
+  height: 29vh;
+  width: 100%;
+  background-color: purple;
+}
+
+@keyframes Caja-Negra {
+  0% {
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+#htmlLogo {
+  animation-delay: 0s;
+}
+
+#cssLogo {
+  animation-delay: 0.3s;
+}
+
+#ECMALogo {
+  animation-delay: 0.9s;
+}
+
+#git {
+  animation-delay: 1.5s;
+}
+
+#jQ {
+  animation-delay: 2.1s;
+}
+
+#React {
+  animation-delay: 2.7s;
+}
+
+#Node {
+  animation-delay: 3.3s;
+}
+
+#TypeScript {
+  animation-delay: 3.9s;
+}
+
+#PhotoShop {
+  animation-delay: 4.5s;
+}
+
+#Vimeo {
+  animation-delay: 5.1s;
+}
+
+#AdobeIlustrator {
+  animation-delay: 5.7s;
+}
+
+#certificaciones {
+  animation-delay: 0s;
+}
+
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(70px);
+    transform: translateY(70px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.cajadosunidades {
+  padding-top: 4vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dosCajas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.9vh;
+  color: rgb(238, 238, 119);
+}
+.dosCajas1 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.9vh;
+  color: rgb(238, 238, 119);
+}
+
+.hobbist {
+  font-family: "Quicksand", sans-serif;
+  font-size: 3.2vh;
+  margin: 5px;
+  color: rgb(238, 238, 119);
+}
+
+li {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.1vh;
+}

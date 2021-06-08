@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
+.introdu {
+  width: 48vw;
+  height: 100vh;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  flex-direction: column;
+}
+
+.cajaExperiencia {
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  width: 48vw;
+  height: 40vh;
+}
+
+.cajaEstudios {
+  padding-top: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  width: 48vw;
+  height: 40vh;
+}
+
+.iam {
+  width: 40vw;
+  height: 50vh;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.2vh;
+  margin: 5px;
+}
+
+.experiencia {
+  width: 40vw;
+  height: 5vh;
+  font-family: "Quicksand", sans-serif;
+  font-size: 3vh;
+  margin: 30px;
+  margin-bottom: 2vh;
+}

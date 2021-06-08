@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Zilla+Slab+Highlight&display=swap");
+
+.ImContainer {
+  background-color: black;
+  padding-top: 12vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#NombreInicio {
+  display: flex;
+  width: 35vw;
+  font-family: "Zilla Slab Highlight", cursive;
+  color: yellow;
+  font-size: 70px;
+  margin: 50px;
+  padding-top: 30px;
+  animation: fade-in-bottomA 2s ease-in-out both;
+}
+
+#js {
+  width: 60vh;
+  font-family: "Zilla Slab Highlight", cursive;
+  color: yellow;
+  font-size: 38px;
+  margin: 70px;
+  transition: 0.5s;
+  animation: fade-in-bottomA 2s ease-in-out both;
+}
+
+#creacion {
+  width: 100vh;
+  color: yellow;
+  font-size: 10px;
+  margin: 40px;
+  animation: fade-in-bottomA 2s ease-in-out both;
+  margin-bottom: 23vh;
+  transition: 0.5s;
+}
+
+@keyframes fade-in-bottomA {
+  0% {
+    -webkit-transform: translateY(70px);
+    transform: translateY(70px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

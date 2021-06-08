@@ -1,0 +1,87 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.App-fondo {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+
+  background-size: 100vh 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hability {
+  z-index: 1;
+  width: 48vw;
+  height: 100vh;
+  margin-right: -80px;
+}
+
+#imagenyo {
+  display: flex;
+  height: 100vh;
+  width: 61vh;
+
+  background-position-x: 40vh;
+  background-position: static;
+  animation-name: fadeinbottomcuatroA;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+}
+
+@keyframes fadeinbottomcuatroA {
+  0% {
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+  50% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+}
+
+@keyframes fadeinbottomcuatroB {
+  0% {
+    -webkit-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+  50% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+}
+
+.botones {
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: black;
+  width: 50vh;
+  height: 100vh;
+  z-index: 5;
+
+  background-position: fixed;
+}

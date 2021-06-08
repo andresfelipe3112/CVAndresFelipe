@@ -1,0 +1,52 @@
+.containerContacto {
+  width: 48vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: -1;
+}
+
+.imagenesContacto {
+  width: 60px;
+  height: 59px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  animation: fadeinbottomcuatro 2s ease-in-out both;
+  z-index: 0;
+}
+
+.tipografiaContacto {
+  font-family: "Raleway", sans-serif;
+  font-size: 2vh;
+  color: black;
+  animation: fadeinbottomcuatro 2s ease-in-out both;
+  z-index: 0;
+}
+
+#github {
+  width: 205px;
+  height: 80px;
+  border-radius: 20px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  animation: fadeinbottomcuatro 2s ease-in-out both;
+}
+
+.containerContactoUltimo {
+  height: 10vh;
+  width: 48vw;
+  background-color: white;
+}
+
+@keyframes fadeinbottomcuatro {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
