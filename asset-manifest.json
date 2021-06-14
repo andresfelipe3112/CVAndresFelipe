@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cvAndresFelipe/static/css/main.d94aa7aa.chunk.css",
+    "main.css": "/cvAndresFelipe/static/css/main.71506b02.chunk.css",
     "main.js": "/cvAndresFelipe/static/js/main.836d996c.chunk.js",
     "main.js.map": "/cvAndresFelipe/static/js/main.836d996c.chunk.js.map",
     "runtime-main.js": "/cvAndresFelipe/static/js/runtime-main.8e1f3c01.js",
@@ -10,7 +10,7 @@
     "static/js/3.825cd95d.chunk.js": "/cvAndresFelipe/static/js/3.825cd95d.chunk.js",
     "static/js/3.825cd95d.chunk.js.map": "/cvAndresFelipe/static/js/3.825cd95d.chunk.js.map",
     "index.html": "/cvAndresFelipe/index.html",
-    "static/css/main.d94aa7aa.chunk.css.map": "/cvAndresFelipe/static/css/main.d94aa7aa.chunk.css.map",
+    "static/css/main.71506b02.chunk.css.map": "/cvAndresFelipe/static/css/main.71506b02.chunk.css.map",
     "static/js/2.19cdbaf9.chunk.js.LICENSE.txt": "/cvAndresFelipe/static/js/2.19cdbaf9.chunk.js.LICENSE.txt",
     "static/media/ECMAScript 6+.99e4c501.png": "/cvAndresFelipe/static/media/ECMAScript 6+.99e4c501.png",
     "static/media/Fundamentos de JavaScript.a390f5dc.png": "/cvAndresFelipe/static/media/Fundamentos de JavaScript.a390f5dc.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.8e1f3c01.js",
     "static/js/2.19cdbaf9.chunk.js",
-    "static/css/main.d94aa7aa.chunk.css",
+    "static/css/main.71506b02.chunk.css",
     "static/js/main.836d996c.chunk.js"
   ]
 }
