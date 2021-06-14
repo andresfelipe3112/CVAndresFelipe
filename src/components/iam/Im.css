@@ -3,6 +3,7 @@
 .ImContainer {
   background-color: black;
   padding-top: 12vh;
+  
 
   display: flex;
   flex-direction: column;
@@ -52,4 +53,42 @@
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+
+@media  (max-width: 800px) {
+
+  .ImContainer {
+    background-color: black;
+    padding-top: 12vh;
+    width:100%;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #NombreInicio {
+    display: flex;
+    width: 75%;
+    font-family: "Zilla Slab Highlight", cursive;
+    color: yellow;
+    font-size: 15vw;
+    margin: 50px;
+    margin-left:15vw;    
+    animation: fade-in-bottomA 2s ease-in-out both;
+  }
+
+  #js {
+    width:70%;
+    font-family: "Zilla Slab Highlight", cursive;
+    color: yellow;
+    font-size: 38px;
+    margin: 70px;
+    margin-left:15%; 
+    transition: 0.5s;
+    animation: fade-in-bottomA 2s ease-in-out both;
+  }
+  
+
 }

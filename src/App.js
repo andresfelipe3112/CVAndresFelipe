@@ -17,14 +17,33 @@ import ApiDellClima from "./components/ApiDelClima/ApiClima.jsx"
 
 function App() {
 
+  // const [mostrarboton, setMostrarboton] = React.useState({
+  //   className: "",
+  //   app: ""
 
+  // })
+
+  // const whenNotMobileDevice = () => {
+  //   if (document.documentElement.clientWidth < 870) {
+  //     console.log(document.documentElement.clientWidth);
+  //     setMostrarboton({ className: "App-Sinfondo" })
+  //   } else {
+  //     setMostrarboton({ className: "App-fondo" })
+  //   }
+  // }
+  // setTimeout(() => {
+  //   whenNotMobileDevice();
+  // }, 0)
+  // React.useEffect(() => {
+
+  //   window.addEventListener("resize", whenNotMobileDevice, true);
+  // }, []);
 
 
   return (
 
+
     <div className="App">
-
-
 
       <div className="hability">
         <Iam />
@@ -34,11 +53,9 @@ function App() {
         <ApiDellClima />
         <Contacto />
 
-
-
       </div>
 
-      {/*lado izquierdo*/}
+
       <div className="App-fondo">
         <img id="imagenyo" src={yo} alt="" ></img>
         <div className="botones">
@@ -47,8 +64,11 @@ function App() {
       </div>
     </div>
 
-
   );
+
+
+
+
 }
 
 export default App;
