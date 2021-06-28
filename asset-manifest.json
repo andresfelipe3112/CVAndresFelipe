@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cvAndresFelipe/static/css/main.71506b02.chunk.css",
-    "main.js": "/cvAndresFelipe/static/js/main.836d996c.chunk.js",
-    "main.js.map": "/cvAndresFelipe/static/js/main.836d996c.chunk.js.map",
+    "main.css": "/cvAndresFelipe/static/css/main.11c985b3.chunk.css",
+    "main.js": "/cvAndresFelipe/static/js/main.bdfd5b5b.chunk.js",
+    "main.js.map": "/cvAndresFelipe/static/js/main.bdfd5b5b.chunk.js.map",
     "runtime-main.js": "/cvAndresFelipe/static/js/runtime-main.8e1f3c01.js",
     "runtime-main.js.map": "/cvAndresFelipe/static/js/runtime-main.8e1f3c01.js.map",
     "static/js/2.19cdbaf9.chunk.js": "/cvAndresFelipe/static/js/2.19cdbaf9.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.825cd95d.chunk.js": "/cvAndresFelipe/static/js/3.825cd95d.chunk.js",
     "static/js/3.825cd95d.chunk.js.map": "/cvAndresFelipe/static/js/3.825cd95d.chunk.js.map",
     "index.html": "/cvAndresFelipe/index.html",
-    "static/css/main.71506b02.chunk.css.map": "/cvAndresFelipe/static/css/main.71506b02.chunk.css.map",
+    "static/css/main.11c985b3.chunk.css.map": "/cvAndresFelipe/static/css/main.11c985b3.chunk.css.map",
     "static/js/2.19cdbaf9.chunk.js.LICENSE.txt": "/cvAndresFelipe/static/js/2.19cdbaf9.chunk.js.LICENSE.txt",
     "static/media/ECMAScript 6+.99e4c501.png": "/cvAndresFelipe/static/media/ECMAScript 6+.99e4c501.png",
     "static/media/Fundamentos de JavaScript.a390f5dc.png": "/cvAndresFelipe/static/media/Fundamentos de JavaScript.a390f5dc.png",
@@ -22,14 +22,14 @@
     "static/media/instagram.563c212b.png": "/cvAndresFelipe/static/media/instagram.563c212b.png",
     "static/media/javaScript Avanzado.ec0fd68c.png": "/cvAndresFelipe/static/media/javaScript Avanzado.ec0fd68c.png",
     "static/media/link.03c8834f.png": "/cvAndresFelipe/static/media/link.03c8834f.png",
+    "static/media/perfil.bb450041.png": "/cvAndresFelipe/static/media/perfil.bb450041.png",
     "static/media/responsiveDesing.c9df8fe3.png": "/cvAndresFelipe/static/media/responsiveDesing.c9df8fe3.png",
-    "static/media/whatsapp.f701d724.png": "/cvAndresFelipe/static/media/whatsapp.f701d724.png",
-    "static/media/yo.155fc089.png": "/cvAndresFelipe/static/media/yo.155fc089.png"
+    "static/media/whatsapp.f701d724.png": "/cvAndresFelipe/static/media/whatsapp.f701d724.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8e1f3c01.js",
     "static/js/2.19cdbaf9.chunk.js",
-    "static/css/main.71506b02.chunk.css",
-    "static/js/main.836d996c.chunk.js"
+    "static/css/main.11c985b3.chunk.css",
+    "static/js/main.bdfd5b5b.chunk.js"
   ]
 }
