@@ -4,9 +4,27 @@
   justify-content: center;
 }
 
+.fondoPerfil{
+
+  background:rgb(229, 255, 0);
+  height: 100vh;
+  width: 30vw;
+  display:flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#presentation{
+  width:40vh;
+  padding: 1vh;
+}
+
+
+
 .App-fondo {
-  
-  
+   
   display:flex;
   position: fixed;
 
@@ -31,12 +49,13 @@
 
 #imagenyo {
   display: flex;
-  height: 100vh;
-  width: 61vh;
-
+  height: 45vh;
+  width: 45vh;
+ padding: 4vh;;
+  border-radius:10%;
   background-position-x: 40vh;
   background-position: static;
-  animation-name: fadeinbottomcuatroA;
+  /* animation-name: fadeinbottomcuatroA; */
   animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-fill-mode: backwards;

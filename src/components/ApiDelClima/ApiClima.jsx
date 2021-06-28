@@ -23,8 +23,14 @@ export default function ApiDellClima() {
                 </Link>
 
 
-                <button id="botonApi">
-                    <a href="https://github.com/andresfelipe3112/MonedaTipeScript.git" target="_blank" rel="noreferrer" >Proyecto con TypeScript</a> </button>
+                {/* <button id="botonApi">
+                    <a href="https://github.com/andresfelipe3112/MonedaTipeScript.git" target="_blank" rel="noreferrer" >Proyecto con TypeScript</a> </button> */}
+
+                <button id="botonApi"><a href="https://condescending-colden-661d84.netlify.app/" target="_blank" rel="noreferrer" >Clon Neflix Css</a></button>
+                <button id="botonApi"><a href="https://zen-dubinsky-a25239.netlify.app/" target="_blank" rel="noreferrer" >Pokemon MEMORY</a></button>
+
+                <button id="botonApi"><a href="https://affectionate-darwin-9ff6da.netlify.app/" target="_blank" rel="noreferrer" >Clon Css Spotify</a></button>
+                <button id="botonApi"><a href="https://admiring-mestorf-fa82a8.netlify.app/" target="_blank" rel="noreferrer" >Quote React</a></button>
 
             </div>
             <div className="containerApi">

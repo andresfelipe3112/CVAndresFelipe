@@ -17,14 +17,14 @@ export default function Contacto() {
         <div className="containerContacto" id="contact" >
 
             <img className="imagenesContacto" src={gmail} alt=""></img>
-            <a href="andresfelipe3112@gmail.com" className="tipografiaContacto" >Andresfelipe3112@gmail.com</a>
+            <a target="blank" href="andresfelipe3112@gmail.com" className="tipografiaContacto" >Andresfelipe3112@gmail.com</a>
             <img className="imagenesContacto" src={whatsapp} alt=""></img>
             <h2 className="tipografiaContacto">+57 314 209 9202</h2>
             <img className="imagenesContacto" src={linkeind} alt=""></img>
-            <a href="https://www.linkedin.com/in/andresfelipepinillameneses/" className="tipografiaContacto">
+            <a target="blank" href="https://www.linkedin.com/in/andresfelipepinillameneses/" className="tipografiaContacto">
                 Andrés Felipe Pinilla Meneses</a>
             <img id="github" src={gitHub} alt=""></img>
-            <a href="https://github.com/andresfelipe3112" className="tipografiaContacto">andresfelipepinillameneses</a>
+            <a target="blank" href="https://github.com/andresfelipe3112" className="tipografiaContacto">andresfelipepinillameneses</a>
 
             {/*<img className="imagenesContacto" src={instagram} alt=""></img>
             <h2 className="tipografiaContacto">andresfelipeqq</h2> */}
